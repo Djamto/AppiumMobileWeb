@@ -35,7 +35,7 @@ public class AppConfig {
 
         try{
             ClassLoader classLoader = getClass().getClassLoader();
-            File file = new File(classLoader.getResource("config_app_ios.properties").getFile());
+            File file = new File(classLoader.getResource("config_app_android.properties").getFile());
 
             inputStream = new FileInputStream(file);
             properties.load(inputStream);

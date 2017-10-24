@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "src/test/resources/features/ProductDetails.feature"
         },
         glue = {"com.appium.demo.steps", "com.appium.demo.base"},
-        tags = {"@SomeTag"}
+        tags = {"@SomeTag1"}
 )
 public class RunTest {
 

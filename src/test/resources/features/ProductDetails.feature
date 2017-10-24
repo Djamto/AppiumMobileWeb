@@ -3,7 +3,7 @@ Feature: Product Details
   Background:
     Given The website is displayed to validate the product recipe
 
-  @SomeTag
+  @SomeTag1
   Scenario: Validate that Fleur de Sel recipe is displayed
     When The user has chosen all products
     And The user has chosen the product Fleur de Sel
